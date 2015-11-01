@@ -1,0 +1,75 @@
+/* widths */
+.TA_name { width:220px;}
+.course_number { width:130px;}
+.quarter { width:100px; }
+.section_time {width:200px;}
+.year{width:100px;}
+.study_hours { width:100px;}
+.maj_specialization { width:100px;}
+.min_major { width:150px;}
+.gen_int_major{ width:100px;}
+.gen_int_major{ width:100px;}
+.time_review_lecture, .time_review_homework,
+.time_prep_homework, .time_new_material,
+.time_with_individuals , .time_other { width:100px;}
+.time_other_commet { width:250px; }
+.comments_liked, .comments_change, 
+.comments_additional { width:500px; height:100px;}
+.submit { width:700px; height:25px; margin:20px 50px 20px 50px;}
+#form, #head, #ta_poll, #ta_perf, #comments { width:800px; }
+
+#head, #ta_poll, #ta_perf, #comments { 
+  border:1px solid black; 
+position:relative;
+}
+#form {margin:auto;}
+
+/* */
+body {
+  font-family:Times;
+  font-size:15px;
+  margin:0px;
+  padding:20px;
+
+  background-color:#777777
+}
+
+#head {
+  background-color:#ccffff;
+  height:125px;
+}
+.head_text {
+  font-size:15pt;
+  text-decoration:underline;
+  font-weight:bold;
+}
+#ta_poll {
+  background-color:#ffccff;
+  
+  height:335px;
+}
+#ta_perf {
+  background-color:#ffffcc;
+  
+  height:385px;
+}
+#comments {
+  background-color:#cccccc;
+  
+  height: 450px;
+}
+
+#head b { 
+  font-size:12pt;
+}
+#ta_poll .box {
+  border:2px solid black;
+  width:649px;
+  height:224px;
+}
+.box hr {
+  width:650px;
+  left:-1;
+  border:solid 1px;
+  background-color:black;
+}

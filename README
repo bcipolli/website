@@ -1,0 +1,46 @@
+This website is a bit hard to understand.  So, here's some info on how to make edits!
+
+
+Choosing a theme / content:
+====================
+_config.php - defines the current theme / content
+content/* - defines all available content
+_themes/* - defines all available themes
+
+
+Editing content:
+====================
+_content/* - defines content, by theme.
+_content/[theme]/[page].[part].xhtml - edit these files to add content, or add new [page]
+  parts include:
+  head - inside the <head> tag
+  body - inside the html <body> tag
+  sidebar - special section on the side fo the content, within the <body> tag
+  template.body.html - original HTML page that entire website is created from
+
+
+Adding new webpages:
+====================
+duplicate a php
+add content [page].[head/body/sidebar].xhtml
+
+
+
+Adding new photos to the homepage:
+====================
+
+
+Editing themes:
+====================
+_themes/[theme]/[page].tpl - template files for the different page types
+  tempates include:
+  content.tpl
+  counter.tpl
+  footer.tpl
+  header.tpl
+  index.tpl
+  sidebar.tpl
+  template.sidebar.tpl
+
+Giving a content page a new template:
+====================
